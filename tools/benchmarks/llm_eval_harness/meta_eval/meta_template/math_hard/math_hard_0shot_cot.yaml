@@ -1,6 +1,6 @@
 dataset_path: parquet
 dataset_kwargs:
-  data_files: ./work_dir/joined_math.parquet
+  data_files: ./work_dir/joined_math_hard.parquet
 task: meta_math_hard
 process_docs: !function utils.process_docs
 output_type: generate_until
